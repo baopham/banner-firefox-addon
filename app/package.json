@@ -1,0 +1,25 @@
+{
+    "name": "banner",
+    "id": "extensionname@example.org",
+    "title": "Banner",
+    "description": "Banner for specific domains",
+    "author": "Bao Pham",
+    "license": "MPL 2.0",
+    "version": "0.1.0",
+    "preferences": [
+        {
+            "name": "domains",
+            "title": "Domains to show the banner",
+            "description": "Separated by pipe, e.g: *.dev|*.dev:8080",
+            "type": "string",
+            "value": "*.dev"
+        },
+        {
+            "name": "banner",
+            "title": "Banner Text",
+            "description": "The banner content",
+            "type": "string",
+            "value": "Bao's ENV"
+        }
+    ]
+}
