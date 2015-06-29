@@ -10,9 +10,9 @@
         {
             "name": "domains",
             "title": "Domains to show the banner",
-            "description": "Separated by pipe, e.g: *.dev|*.dev:8080",
+            "description": "Separated by pipe, e.g: *\\.dev|*\\.local",
             "type": "string",
-            "value": "*.dev"
+            "value": "*\\\\.dev"
         },
         {
             "name": "banner",
